@@ -3,8 +3,8 @@
 ## Prerequisites
 - Docker
 - DDEV: Local development environment using Docker 
-  - DDEV GitHub:(https://github.com/drud/ddev)
-  - DDEV Docs: (https://ddev.readthedocs.io/en/stable/)
+  - DDEV GitHub: https://github.com/drud/ddev
+  - DDEV Docs: https://ddev.readthedocs.io/en/stable/
 
 ## Installation
 
@@ -44,13 +44,13 @@ npm install
 ```
 
 Now start the development server for the frontend
-`React`
 ```
+// React
 npm run start
 ```
 or
-`VueJS`
 ```
+// VueJS
 npm run serve
 ```
 
