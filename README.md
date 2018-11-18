@@ -1,10 +1,11 @@
-# Decoupled Drupal Experiment with GraphQL, React and VueJS
+# Decoupled Drupal Experiment with GraphQL and VueJS
 
 ## Prerequisites
 - Docker
 - DDEV: Local development environment using Docker 
   - DDEV GitHub: https://github.com/drud/ddev
   - DDEV Docs: https://ddev.readthedocs.io/en/stable/
+- NodeJS
 
 ## Installation
 
@@ -29,7 +30,7 @@ composer install
 
 ### Frontend:
 
-Navigate to either the React or VueJS frontend
+Navigate to the frontend-vue directory
 ```
 cd ../frontend-react
 ```
@@ -45,12 +46,6 @@ npm install
 
 Now start the development server for the frontend
 ```
-// React
-npm run start
-```
-or
-```
-// VueJS
 npm run serve
 ```
 
@@ -58,5 +53,5 @@ npm run serve
 
 Navigate to `http://decoupled-drupal-backend.ddev.local:8000` to add some article content nodes.
 
-These nodes will then be viewable in your frontend by navigating to your localhost.
+These nodes will then be viewable in the frontend by navigating to your localhost.
 
