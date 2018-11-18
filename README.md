@@ -3,9 +3,8 @@
 ## Prerequisites
 - Docker
 - DDEV: Local development environment using Docker 
-[GitHub: DDEV](https://github.com/drud/ddev)
-
----
+  - DDEV GitHub:(https://github.com/drud/ddev)
+  - DDEV Docs: (https://ddev.readthedocs.io/en/stable/)
 
 ## Installation
 
@@ -27,8 +26,6 @@ Install Drupal/modules
 ```
 composer install
 ```
-
----
 
 ### Frontend:
 
