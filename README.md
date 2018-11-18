@@ -28,6 +28,11 @@ Install Drupal/modules
 composer install
 ```
 
+Import the configuration
+```
+ddev exec drush cim
+```
+
 ### Frontend:
 
 Navigate to the frontend-vue directory
