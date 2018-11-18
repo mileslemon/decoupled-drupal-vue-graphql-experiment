@@ -5,7 +5,7 @@
       <h3 v-if="loading">Loading...</h3>
       <h3 v-else-if="error">An error occured</h3>
 
-      <section v-if="data.nodeQuery">
+      <section v-if="data">
         <div v-if="publishedArticles.length">
           <div v-for="entity in publishedArticles" :key="entity.id">
             <a :href="'/articles/' + entity.nid">
@@ -65,7 +65,6 @@ a {
   }
   &:hover {
     box-shadow: 0 10px 20px rgba(3, 27, 78, 0.1);
-    // cursor: pointer;
     transform: translateY(-5px);
   }
 }
