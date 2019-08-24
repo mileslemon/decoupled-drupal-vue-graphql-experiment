@@ -37,10 +37,6 @@ ddev exec drush cim
 
 Navigate to the frontend-vue directory
 ```
-cd ../frontend-react
-```
-or
-```
 cd ../frontend-vue
 ```
 
